@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+/* body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+/* logo */
+.header{
+    padding: 60px;
+    text-align: center;
+    background-color: navy;
+    color: blue;
+}
+/* navigation bar */
+.navbar{
+    display: flex;
+    background-color: peru;
+}
+.navbar a{
+    color:green;
+    text-decoration:none ;
+    padding: 60px;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:white;
+    color:blue;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.side{
+    flex: 30px;
+    background-color: white;
+    padding: 20px;
+}
+.main{
+    flex: 70px;
+    background-color: white;
+    padding: 20px;
+}
+.fakeimg{
+    background-color: black
+    padding: 20px; 
+}
